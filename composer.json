@@ -1,6 +1,6 @@
 {
     "name": "mkd/laravel-otp",
-    "description": "An advanced, customizable OTP (One-Time Password) verification system for Laravel applications, supporting hashed token and custom validation methods.",
+    "description": "Laravel package for generating and verifying One-Time Passwords (OTPs) using TOTP (Time-based One-Time Password) and HOTP (HMAC-based One-Time Password) algorithms.",
     "keywords": [
         "laravel",
         "otp",
@@ -18,7 +18,15 @@
         "otp-verification",
         "laravel-package",
         "mkdev",
-        "laravel-advanced-otp"
+        "laravel-advanced-otp",
+        "authenticator",
+        "totp",
+        "hotp",
+        "timed otp",
+        "counter otp",
+        "google-authenticator",
+        "google-otp"
+
     ],
     "homepage": "https://github.com/mustafakhaleddev/laravel-advanced-otp",
     "license": "MIT",
