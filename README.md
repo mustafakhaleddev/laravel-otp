@@ -4,8 +4,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/mkd/laravel-otp.svg?style=flat-square)](https://packagist.org/packages/mkdev/laravel-advanced-otp)
 ![GitHub Actions](https://github.com/mustafakhaleddev/laravel-otp/actions/workflows/main.yml/badge.svg)
 
-```markdown
-# MKD Laravel OTP
+
 
 A simple Laravel package for generating and verifying One-Time Passwords (OTPs) using TOTP (Time-based One-Time Password) and HOTP (HMAC-based One-Time Password) algorithms.
 
