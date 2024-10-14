@@ -1,0 +1,63 @@
+{
+    "name": "mkd/laravel-otp",
+    "description": "An advanced, customizable OTP (One-Time Password) verification system for Laravel applications, supporting hashed token and custom validation methods.",
+    "keywords": [
+        "laravel",
+        "otp",
+        "laravel otp",
+        "advanced otp",
+        "one-time password",
+        "2fa",
+        "two-factor authentication",
+        "laravel otp verification",
+        "email verification",
+        "token verification",
+        "one-time-password",
+        "authentication",
+        "two-factor-authentication",
+        "otp-verification",
+        "laravel-package",
+        "mkdev",
+        "laravel-advanced-otp"
+    ],
+    "homepage": "https://github.com/mustafakhaleddev/laravel-advanced-otp",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mustafa Khaled",
+            "email": "mustafakhaled.dev@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^8.0|^9.0|^10.0|^11.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MKD\\LaravelOTP\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MKD\\LaravelOTP\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MKD\\LaravelOTP\\LaravelOTPServiceProvider"
+            ],
+            "aliases": {
+                "LaravelOTP": "MKD\\LaravelOTP\\LaravelOTPFacade"
+            }
+        }
+    }
+}
