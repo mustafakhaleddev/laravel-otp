@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/mkd/laravel-otp.svg?style=flat-square)](https://packagist.org/packages/mkdev/laravel-advanced-otp)
 [![Total Downloads](https://img.shields.io/packagist/dt/mkd/laravel-otp.svg?style=flat-square)](https://packagist.org/packages/mkdev/laravel-advanced-otp)
-![GitHub Actions](https://github.com/mustafakhaleddev/laravel-otp/actions/workflows/main.yml/badge.svg)
+![GitHub Actions](https://github.com/mustafakhaleddev/laravel-otp/actions/workflows/phpunit.yml/badge.svg)
 
 
 
