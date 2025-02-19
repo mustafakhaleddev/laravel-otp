@@ -4,12 +4,12 @@ namespace MKD\LaravelOTP;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelOTPServiceProvider extends ServiceProvider
+final class LaravelOTPServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
      */
-    public function boot()
+    public function boot(): void
     {
 
         if ($this->app->runningInConsole()) {
@@ -24,7 +24,7 @@ class LaravelOTPServiceProvider extends ServiceProvider
     /**
      * Register the application services.
      */
-    public function register()
+    public function register(): void
     {
         // Register the main class to use with the facade
         $this->app->singleton('laravel-otp', function () {
